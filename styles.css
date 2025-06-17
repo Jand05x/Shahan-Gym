@@ -95,3 +95,9 @@ body {
 
   color: #ccc;
 }
+.highlightnavy {
+  padding: 10px;
+  border-radius: 5px;
+  color: #1c2785;
+  font: bold;
+}

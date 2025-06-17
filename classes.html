@@ -18,6 +18,12 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
   </head>
 
   <body>
@@ -61,6 +67,16 @@
         </div>
       </div>
     </nav>
+    <!--Welcome Back-->
+    <div class="container">
+            <h3 class="mt-5">Welcome Back, Adam!
+    </h3>
+      <img src="images/waving-hand.png" alt="waving Icon" 
+  style="width: 50px;" />
+  
+    </div>
+
+   
     <!--Reward Points-->
     <div class="container mt-5 ">
         <div class="row">
@@ -77,32 +93,49 @@
    <div class="container mt-5">
     <h3 class="mb-4">Classes Available </h3>
 <div class="card">
-  <h5 class="card-header">YOGA</h5>
-  <div class="card-body">
-    <h5 class="card-title mt-3">Difficulty: Beginner</h5>
-    <div class="mb-2">
-       
-        <ul >
-          <li>
-            Date: 2025-07-20, 6:00 PM<br />
 
-            Instructor: Ali<br />
-
-            Location: Studio A
-          </li>
-        </ul>
-
+  <div class="card-header"><h5 >YOGA</h5></div>
+<p class="text-end phighlight">US $10</p>  
+    <div class="card-body">
+      <div class="text-center mb-3">
+        <img src="images/yoga.png" alt="Yoga Icon" style="width: 50px;" />
       </div>
-<div class="d-flex justify-content-end flex-column align-items-end">
-      <a href="#" class="btn btn-primary mb-2">Book Now</a>
 
-     <p class="card-text text-end"><small class="text-body-secondary">MAX: 15 SEATS-- Availablity: 3 seats</small></p>
+      <h5 class="card-title">Difficulty: Beginner</h5>
+
+      <ul class="mb-3">
+        <li>
+          Date: 2025-07-20, 6:00 PM<br />
+          Instructor: Ali<br />
+          Location: Studio A
+        </li>
+      </ul>
+
+      <p class="mb-4 highlightnavy">
+        A gentle class to learn basic poses and breathing, perfect for beginners to relax and build strength. No experience needed!
+      </p>
+
+      <div class="d-flex justify-content-end flex-column align-items-end">
+        <a href="#" class="btn btn-primary mb-2">Book Now</a>
+        <p class="card-text text-end">
+          <small class="text-body-secondary">
+            MAX: 15 SEATS — Availability: 3 seats
+          </small>
+        </p>
+      </div>
+    </div>
+
+   
   </div>
   <hr>
   <!--2nd card-->
   <div class="card mt-2">
   <h5 class="card-header">HITT WORKOUT</h5>
+  <p class="text-end phighlight">US $33</p>  
   <div class="card-body">
+     <div class="text-center mb-3">
+        <img src="images/hitt.png" alt="HITT workout Icon" style="width: 50px;" />
+      </div>
     <h5 class="card-title mt-3" >Difficulty: Hard</h5>
     <div class="mb-2">
        
@@ -116,6 +149,9 @@
           </li>
         </ul>
       </div>
+            <p class="mb-4 highlightnavy">
+ A high-intensity interval training class that combines fast-paced exercises for maximum fat burn and strength. 
+ Ideal for those looking for a challenge </p>
 <div class="d-flex justify-content-end flex-column align-items-end">
       <a href="#" class="btn btn-primary mb-2">Book Now</a>
 
@@ -127,7 +163,11 @@
  <!--3rd card-->
   <div class="card mt-2">
   <h5 class="card-header">CYCLING</h5>
+  <p class="text-end phighlight">US $21</p>  
   <div class="card-body">
+    <div class="text-center mb-3">
+        <img src="images/workout-machine.png" alt="Cycle Icon" style="width: 50px;" />
+      </div>
     <h5 class="card-title mt-3" >Difficulty: Medium</h5>
     <div class="mb-2">
        
@@ -141,6 +181,10 @@
           </li>
         </ul>
       </div>
+     <p class="mb-4 highlightnavy">
+        A fun, energizing indoor ride focused on improving endurance, strength, and cardio.
+         Great for all fitness levels with moderate intensity.
+      </p>
 <div class="d-flex justify-content-end flex-column align-items-end">
       <a href="#" class="btn btn-primary mb-2">Book Now</a>
 
@@ -152,4 +196,40 @@
 </div>
    </div>
   </body>
+
+  <!-- Footer Start -->
+  <footer class="footer text-dark pt-3 pb-2 mt-5">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!-- About Shahan Gym -->
+         <hr class="bg-secondary" />
+        <div class="col-md-4 text-start">
+          <h5>About Shahan Gym</h5>
+          <p>
+            Shahan Gym is a premier fitness center in Kurdistan, offering
+            personal training, group classes, nutrition coaching, and wellness
+            programs — all in a motivating, modern environment.
+          </p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 text-start">
+          <h5>Contact Us</h5>
+          <p>📧 info@shahangym.com</p>
+          <p>📞 +964 750 000 1234</p>
+          <p>📍 Shahan Tower, Duhok, Kurdistan Region</p>
+        </div>
+      </div>
+
+      <hr class="bg-secondary" />
+
+      <div class="text-center">
+        <p class="mb-0">
+          &copy; 2024 Shahan Gym. All rights reserved. | Train with purpose.
+          Live with strength.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
 </html>
