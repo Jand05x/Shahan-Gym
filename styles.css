@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #000000;
+  padding-top: 75px;
 }
 
 .bg-dark-blue {
@@ -98,6 +99,10 @@ body {
 .highlightnavy {
   padding: 10px;
   border-radius: 5px;
-  color: #1c2785;
+  color: #1d2785;
   font: bold;
+}
+.phighlight {
+  color: rgb(205, 6, 6);
+  margin-top: 10px;
 }
