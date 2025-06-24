@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>classes</title>
+    <title>Welcome to Shahan's Gym</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- Bootstrap CSS -->
     <link
@@ -18,11 +18,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
   </head>
 
   <body>
@@ -48,7 +43,7 @@
               <a class="nav-link" href="index.html" target="_blank">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="classes.html" target="_blank"
+              <a class="nav-link" href="classes.html" target="_blank"
                 >Classes</a
               >
             </li>
@@ -61,7 +56,7 @@
               <a class="nav-link" href="register.html" target="_blank">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="profile.html" target="_blank"
+              <a class="nav-link active" href="profile.html" target="_blank"
                 >Profile</a
               >
             </li>
@@ -69,84 +64,52 @@
         </div>
       </div>
     </nav>
-    <!-- Checkout Section -->
-    <section class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <h3 class="fw-bold my-5">Checkout</h3>
-          <!-- Card for Booking Plan -->
-          <div class="card mb-4 shadow-sm">
-            <div
-              class="card-body d-flex justify-content-between align-items-center"
-            >
-              <div class="d-flex align-items-center">
-                <img
-                  src="images/shahan.png"
-                  alt="Plan Icon"
-                  style="height: 45px; margin-right: 15px"
-                />
-                <div>
-                  <h6 class="mb-0">YOGA CLASS</h6>
-                  <small>1 Session Reservation</small>
-                </div>
-              </div>
-              <div><span class="fw-bold">$ 10</span> / session</div>
-            </div>
-          </div>
-
-          <!-- Payment Options -->
-          <div class="mb-4">
-            <h5>Payment method</h5>
-            <div class="form-check mt-2">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="payment"
-                id="savedVisa"
-                checked
-              />
-              <label class="form-check-label" for="savedVisa">
-                <img src="images/visa.png" style="height: 9px" />
-                Saved Visa (**** 5231)
-              </label>
-            </div>
-            <div class="form-check mt-2">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="payment"
-                id="creditCard"
-              />
-              <label class="form-check-label" for="creditCard">
-                <img src="images/master.png" style="height: 20px" />
-                Credit or debit card
-              </label>
-            </div>
-            <div class="form-check mt-2">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="payment"
-                id="cash"
-              />
-              <label class="form-check-label" for="cash">
-                <img src="images/cash.png" style="height: 20px" />
-                Pay cash
-              </label>
-            </div>
-          </div>
-          <div class="form-check form-switch my-4">
-            <input class="form-check-input" type="checkbox" id="split" />
-            <label class="form-check-label" for="rememberme"
-              >Split with your points</label
-            >
-          </div>
-          <!-- Confirm Button -->
-          <button type="button" class="btn btn-dark w-50">Confirm & Pay</button>
+    <!--profile-->
+    <section class="container my-5">
+      <div class="card shadow-sm p-4">
+        <div class="d-flex align-items-center mb-4">
+          <img
+            src="images/profile.jpeg"
+            alt="profile"
+            style="
+              width: 80px;
+              height: 80px;
+              border-radius: 50%;
+              margin-right: 15px;
+            "
+          />
+          <h4 class="mb-0">My Profile</h4>
         </div>
+        <form>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" value="Adam Ali" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Username</label>
+              <input type="text" class="form-control" value="Adam05" />
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" value="Adam@yahoo.com" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" value="0750-123-4567" />
+            </div>
+          </div>
+          <div class="d-flex justify-content-between mt-4">
+            <button type="sumbit" class="btn btn-primary">Save Changes</button>
+            <button type="button" class="btn btn-danger">Log Out</button>
+          </div>
+        </form>
       </div>
     </section>
   </body>
+
   <!-- Footer Start -->
   <footer class="footer text-dark pt-3 pb-2 mt-5">
     <div class="container">
